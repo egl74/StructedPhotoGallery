@@ -1,0 +1,57 @@
+﻿@using MvcUI.Source
+@model MvcUI.Models.UploadImageModel
+@{
+    ViewBag.Title = "Image uploader";
+}
+@section Styles
+{
+<link href="@Url.Content("~/Content/ImageArea.css")" rel="stylesheet" />
+}
+@section Scripts
+{
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")"></script>
+<script src="@Url.Content("~/Scripts/jquery.imgareaselect.js")"></script>
+<script src="@Url.Content("~/Scripts/jquery.fancyupload.js")"></script>
+<script>
+    $(document).ready(function () {
+        initSelect();
+    });
+</script>
+}
+<h2>Загрузка изображения</h2>
+@using (Html.BeginForm("UploadImage", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.HiddenFor(model => model.X)
+    @Html.HiddenFor(model => model.Y)
+    @Html.HiddenFor(model => model.Width)
+    @Html.HiddenFor(model => model.Height)
+    <div id="upload-choices">
+        <div class="editor-row">
+            @Html.HiddenFor(model => model.UserName, new{@Value = User.Identity.Name})
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Title)
+                @Html.ValidationMessageFor(model => model.Title)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Description)
+                @Html.ValidationMessageFor(model => model.Description)
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(model => model.File)
+            </div><div class="editor-field">
+                      @Html.FileFor(model => model.File)
+                      @Html.ValidationMessageFor(model => model.File)
+                  </div>
+        </div>
+        <div class="editor-row">
+            @Html.ValidationSummary(true)
+        </div>
+    </div>
+    <div id="upload-cut">
+        <img alt="Field for image cutting" id="preview" src="@Url.Content("~/Content/empty.png")" />
+    </div>
+    <div class="clear">
+        <button type="submit">Загрузить</button>
+    </div>
+}

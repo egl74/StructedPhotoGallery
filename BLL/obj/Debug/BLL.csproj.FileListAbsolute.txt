@@ -1,0 +1,16 @@
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\BLL\bin\Debug\BLL.dll.config
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\BLL\bin\Debug\BLL.dll
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\BLL\bin\Debug\BLL.pdb
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\BLL\bin\Debug\BLL.Interface.dll
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\BLL\bin\Debug\DAL.Interface.dll
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\BLL\bin\Debug\EntityFramework.dll
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\BLL\bin\Debug\ORM.dll
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\BLL\bin\Debug\BLL.Interface.pdb
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\BLL\bin\Debug\DAL.Interface.pdb
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\BLL\bin\Debug\ORM.pdb
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\BLL\bin\Debug\EntityFramework.xml
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\BLL\obj\Debug\BLL.dll
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\BLL\obj\Debug\BLL.pdb

@@ -1,0 +1,10 @@
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\DAL.Interface\bin\Debug\DAL.Interface.dll
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\DAL.Interface\bin\Debug\DAL.Interface.pdb
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\DAL.Interface\obj\Debug\DAL.Interface.dll
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\DAL.Interface\obj\Debug\DAL.Interface.pdb
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\DAL.Interface\obj\Debug\DAL.Interface.csprojResolveAssemblyReference.cache
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\DAL.Interface\bin\Debug\DAL.Interface.dll.config
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\DAL.Interface\bin\Debug\EntityFramework.dll
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\DAL.Interface\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\DAL.Interface\bin\Debug\EntityFramework.xml
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\StructedApp\PhotoGallery\DAL.Interface\bin\Debug\EntityFramework.SqlServer.xml

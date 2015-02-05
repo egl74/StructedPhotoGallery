@@ -1,0 +1,35 @@
+﻿@using System.Web.UI.WebControls
+@using Microsoft.Ajax.Utilities
+@model MvcUI.Models.ImagesModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<h2>Все изображения</h2>
+<p>
+    Список всех загруженных изображений
+</p>
+@if (Model.Images.Count > 0)
+{
+<div class="imageContainer">
+@for(int i = 0; i < Model.Images.Count; i++)
+{
+    
+    <div class="imageBox">
+        <a href="@Url.Content("~/Content/img/" + Model.Images[i])" target="_blank">
+    <img src="@Url.Content("~/Content/img/" + Model.Images[i])" alt="Image" class="imagePreview" title="Название:@Model.ImagesName[i]"/>
+        </a>
+    </div>
+    
+    
+}
+</div>
+}
+else
+{
+<div class="imageCenter">
+    Список загруженных изображений пуст :( @Html.ActionLink("Click here", "UploadImage") Для загрузки изображения.
+</div>
+}
+<div class="clear"></div>
